@@ -317,26 +317,49 @@ section {
 
 #experience .section__text__p1,
 #experience .title {
-  text-align: center; /* Aligns section titles to the left */
+  text-align: center;
 }
 
 .experience-details-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
   width: 100%;
+  gap: 2rem;
 }
 
 #experience .inline-section {
   display: flex;
-  flex-direction: column; /* Stack h3 and p vertically */
-  align-items: flex-start; /* Aligns h3 and p to the left */
+  flex-direction: column;
+  align-items: flex-start;
   width: 100%;
 }
 
-#experience .inline-section h3,
-#experience .inline-section p {
+#experience .inline-section h3 {
   margin: 0;
+}
+
+#experience .experience-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+#experience .experience-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#experience .experience-item img {
+  cursor: default;
+}
+
+#experience .experience-item p {
+  margin: 0;
+  text-align: left;
 }
 
 /* PROJECTS SECTION */
@@ -366,9 +389,6 @@ section {
   border-color: rgb(163, 163, 163);
 }
 
-.project-description {
-  margin: 1rem 0; /* Adjust this value to match the desired spacing */
-}
 /* CONTACT */
 
 #contact {
