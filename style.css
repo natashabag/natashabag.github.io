@@ -165,6 +165,9 @@ section {
   height: 80vh;
 }
 
+.text-about {
+  text-align: center;
+}
 .section__pic-container {
   display: flex;
   height: 400px;
