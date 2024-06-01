@@ -314,6 +314,10 @@ section {
   margin: auto 0;
 }
 
+#profile {
+  position: relative;
+}
+
 /* EXPERIENCE SECTION */
 #experience {
   position: relative;
@@ -391,6 +395,10 @@ section {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+#manual-projects {
+  position: relative;
 }
 
 /* CONTACT */
