@@ -118,6 +118,7 @@ a:hover {
 
 .menu-links.open {
   max-height: 300px;
+  z-index: 1;
 }
 
 .hamburger-icon.open span:first-child {
@@ -171,7 +172,7 @@ section {
   text-align: center;
 }
 
-.section__text p {
+.heading {
   font-weight: 600;
 }
 
@@ -397,6 +398,7 @@ section {
   flex-direction: column;
   height: 70vh;
   position: relative;
+  padding-top: 10rem;
 }
 
 .contact-info-upper-container {
