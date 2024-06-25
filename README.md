@@ -1,4 +1,4 @@
-# My Portfolio - Playwright + TypeScript Project 👩🏻‍💻
+# My QA Portfolio - CSS, HTML, JavaScript Project 👩🏻‍💻
 
 This project is designed to provide you with a clear understanding of my work process, my contributions to past projects, and how I can add value to your team. Whether you're here to learn more about my professional journey or explore my portfolio, I’m glad you stopped by. 
 
