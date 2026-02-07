@@ -43,7 +43,7 @@
         <p class="section__text__p1 heading">Hello, I'm</p>
         <h1 class="title">Natasha</h1>
         <p class="section__text__p2 heading">Software Development Engineer in Test</p>
-        <p>Welcome to my page! I’m glad you stopped by.</p>
+        <p>Welcome to my page! I'm glad you stopped by.</p>
         <br />
         <p>
           I created this page to provide you with a clear understanding of my
@@ -232,9 +232,62 @@
     </section>
     <section id="projects">
       <p class="section__text__p1">See My Recent</p>
-      <h1 class="title">Test Automation Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
+      <h1 class="title">Coding Projects</h1>
+      <div style="position: relative;">
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-7.png"
+                  alt="Project 7"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Trivia Game Project</h2>
+              <p class="project-description">React, Tailwind CSS</p>
+              <p class="project-description">Vanilla JavaScript</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/natashabag/trivia-game-app')"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-8.png"
+                  alt="Project 8"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Sauce Demo</h2>
+              <p class="project-description">Playwright, TypeScript</p>
+              <p class="project-description">Allure Reports, GitHub Actions</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/natashabag/SauceDemoPlaywright')"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#coding-projects-row2'"
+        />
+      </div>
+      <div style="position: relative;">
+        <div class="experience-details-container" id="coding-projects-row2">
+          <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -296,13 +349,13 @@
             </div>
           </div>
         </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#manual-projects'"
+        />
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#manual-projects'"
-      />
     </section>
     <section id="manual-projects">
       <p class="section__text__p1">I am Happy To Share</p>
@@ -396,7 +449,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p>
+           <p>
             <a href="mailto:natalia.bagramian@gmail.com"
               >natalia.bagramian@gmail.com</a
             >
@@ -432,10 +485,3 @@
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact Me</a></li>
-          </ul>
-        </div>
-      </nav>
-    </footer>
-    <script src="script.js"></script>
-  </body>
-</html>
